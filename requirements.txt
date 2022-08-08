@@ -1,0 +1,6 @@
+attrs~=21.4.0
+cattrs~=22.1.0
+disnake~=2.5.1
+aiohttp~=3.8.1
+aiosqlite~=0.17.0
+numpy~=1.23.0

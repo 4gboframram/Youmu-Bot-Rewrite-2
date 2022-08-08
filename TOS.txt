@@ -1,0 +1,42 @@
+By using this bot you agree to the following guidelines. This bot cannot entirely prevent people from misusing it, so this policy is necessary.
+
+**Failing to abide by these rules or not agreeing to these terms may lead to denial of usage privileges.**
+
+    1. Users may not use this bot for content that goes against Discord's Community Guidelines, including but not limited to:
+
+```
+- Content that sexualizes minors or digitally altered pornography that depicts minors (such as lolicon, shotacon, or cub)
+
+- Content that glorifies or promotes suicide or self-harm, including any encouragement to others to cut themselves, or embrace eating disorders
+
+- Content that depicts sadistic gore or animal cruelty
+
+- Content that promotes violent extremism (such as Nazism)
+
+- Content that promotes usage of illegal items / substances
+```
+
+    Read Discord's Community Guidelines for more information regarding what is or isn't allowed. If any responses to commands are against this Policy, or the Discord Community Guidelines themselves, kindly react to the image with ❌ within 60 seconds to delete the image, or contact someone with the `Manage Messages` permission
+
+
+    2. The invoker of a command shall treated as if they were the one that sent the content of the response if the content was not requested to be deleted or deleted by said invoker within 60 seconds.
+    This bot tries its best to stop misuse, but no filter is perfect, therefore it is impossible to completely prevent misuse.
+
+    **Intentional misuse of the bot shall result in punishment on the guild (server) basis**
+
+    3. Neither this bot, nor the developer(s) of this bot owns any of the artworks that it sends unless otherwise indicated.
+    All artworks belong to their respective owners. If there is an issue with your work being used without your permission, contact Gelbooru, not the developer(s) of this bot.
+
+    4. The LICENSE file located in this bot's GitHub repository contains legal information about distributing and reusing the source code for this bot. The Github repository can be found with the `/help` command.
+
+    5. The developer(s) of this software are not liable for any potential damages done. This program is distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+
+    tldr;
+    - No loli/shota/cub hentai
+    - You are responsible for searching bad things
+    - Don't make the bot send things that are against Discord's TOS
+    - Delete the sent artwork if something weird happens
+    - Don't harass people with the bot
+    - Please don't sue the developer(s) of this bot if something bad happens
