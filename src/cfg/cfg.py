@@ -58,7 +58,7 @@ class BotInfo:
         "Eating watermelon with Yuyuko-sama",
         "Myon?",
         "Being best girl",
-        "Needing both base classes have essentially the same interface so the only difference is whether sharding is enosome sleep",
+        "Needing some sleep",
         "Wanting headpats",
     ]
 
