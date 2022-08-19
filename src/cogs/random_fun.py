@@ -97,9 +97,8 @@ class RandomFunCog(BaseCog):
         self,
         inter,
         thing_1: str = commands.Param(description="The love boat sets sail..."),
-        thing_2: str | None = commands.Param(
-            default=None, description="The love boat sets sail..."
-        ),
+        thing_2: str
+        | None = commands.Param(default=None, description="The love boat sets sail..."),
     ):
         if thing_2 is None:
             thing_2 = inter.author.mention

@@ -38,6 +38,7 @@ class YoumuBot(BotBase):
     """
     The base class representing the Bot itself
     """
+
     def __init__(self):
         cfg = get_config()
         self.cfg: Config = cfg
@@ -55,12 +56,14 @@ class YoumuBot(BotBase):
         from .cogs.other import OtherCog
         from .cogs.reminders.cog import RemindersCog
         from .cogs.games.cog import GameCog
+        from .cogs.markov.cog import SpellcardCog
 
         self.add_cog(SanityCog(self))
         self.add_cog(RandomFunCog(self))
         self.add_cog(OtherCog(self))
         self.add_cog(RemindersCog(self))
-        self.add_cog(GelbooruCog(self))
         self.add_cog(GameCog(self))
+        self.add_cog(SpellcardCog(self))
+        self.add_cog(GelbooruCog(self))
 
         await self.start(self.cfg.bot_info.token)

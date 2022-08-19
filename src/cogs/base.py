@@ -28,6 +28,7 @@ class BaseCog(commands.Cog):
     """
     A base class for all the other cogs to inherit from. Adds logging and adds the bot to the cog
     """
+
     def __init__(self, bot: YoumuBot):
         self.bot: YoumuBot = bot
         super().__init__()

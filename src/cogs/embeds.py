@@ -23,6 +23,7 @@ class YoumuEmbed(Embed):  # Creates a standard embed used by the bot
     """
     A standard embed for most commands that sets author and icon url to the ones in the configuration file
     """
+
     def __init__(self, **kwargs):
         cfg = get_config()
         super().__init__(**kwargs)

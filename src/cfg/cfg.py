@@ -516,6 +516,7 @@ class Config:
     """
     A class that represents the configuration info
     """
+
     bot_info: BotInfo = BotInfo()
     logging_info: LoggingInfo = LoggingInfo()
     features: Features = Features()
@@ -525,6 +526,7 @@ class __GetConfig:
     """
     A singleton class that gets configuration either from cache or from the config.json file
     """
+
     config: ClassVar[Optional[Config]] = None
 
     def __call__(self, *, force_reload=False) -> Config | None:

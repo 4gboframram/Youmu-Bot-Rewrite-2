@@ -30,6 +30,7 @@ class TTTInviteView(View):
     """
     A view that represents an invitation to a TTT game
     """
+
     def __init__(self, players: tuple[int, int], n: int, inter):
         super().__init__(timeout=60.0)
         self.button = TTTInviteButton(players, n)
@@ -50,6 +51,7 @@ class TTTInviteButton(Button[TTTInviteView]):
     """
     A class that represents the button that starts a TTT game
     """
+
     def __init__(self, players: tuple[int, int], n: int):
 
         if random.randint(0, 1):
@@ -75,6 +77,7 @@ class GameCog(BaseCog):
     """
     A cog that handles various major games within the bot
     """
+
     @commands.slash_command(
         name="ttt", description="Play a game of Tic Tac Toe with someone."
     )

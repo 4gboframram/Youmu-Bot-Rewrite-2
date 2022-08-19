@@ -29,6 +29,7 @@ class SanityCog(BaseCog):
     """
     The cog that handles various things that ensure the bot is working and manages the presence loop
     """
+
     @commands.slash_command(name="ping", description="Pong?")
     async def ping(self, ctx: disnake.ApplicationCommandInteraction):
         message = random.choice(self.bot.cfg.bot_info.ping_messages)

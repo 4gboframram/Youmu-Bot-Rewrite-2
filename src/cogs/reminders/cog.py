@@ -33,6 +33,7 @@ class RemindersCog(BaseCog):
     """
     The cog that deals with the creating and removing reminders and manages the loop that fetches new reminders
     """
+
     embed_color = 0x42C78D
 
     def __init__(self, bot):

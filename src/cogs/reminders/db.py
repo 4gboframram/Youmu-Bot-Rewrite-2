@@ -134,6 +134,7 @@ class ReminderTask(asyncio.Task):
     """
     A subclass of asyncio.Task that responds to a reminder
     """
+
     reminder: Reminder = field()
 
     def __init__(self, reminder: Reminder, *, loop=None, name=None):
@@ -179,6 +180,7 @@ class ReminderDatabase:
     """
     A wrapper around sqlite database used to store reminders
     """
+
     def __init__(self, bot: YoumuBot):
         self.bot = bot
         self.con: aiosqlite.Connection | None = None

@@ -35,6 +35,7 @@ class TTT(View):
     """
     A View that represents the state of a TTT game
     """
+
     def __init__(self, n: int, players: tuple[int, int]):
         # x is 0, o is 1, not taken is -1
         if n not in range(1, 6):  # unneeded
@@ -109,6 +110,7 @@ class TTTButton(Button["TTT"]):
     """
     A button that changes the state of a TTT game
     """
+
     def __init__(self, x: int, y: int):
         self.x = x
         self.y = y
