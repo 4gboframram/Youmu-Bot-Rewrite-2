@@ -1,7 +1,7 @@
 # Youmu Bot Rewrite (Rewrite)
 
 ## Introduction
-Youmu Bot was a Discord bot originally created on May 30, 2021 as an experiment with lexers an parsers. 
+Youmu Bot was a Discord bot originally created on May 30, 2021 as an experiment with lexers and parsers. 
 A while after development stopped on Youmu Bot, I realized the original concept for Youmu Bot was stupid and the code was horrible, so I rewrote the code, focusing on its art searching and code quality.
 
 Around May 30, 2022, I began to rewrite the code yet again to celebrate the 1 year anniversary of Youmu Bot, which was my first large project. And that's what this is.
