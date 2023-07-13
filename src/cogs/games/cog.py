@@ -53,12 +53,7 @@ class TTTInviteButton(Button[TTTInviteView]):
     """
 
     def __init__(self, players: tuple[int, int], n: int):
-
-        if random.randint(0, 1):
-            self.players = tuple(reversed(players))
-        else:
-            self.players = players
-
+        self.players = players
         self.n = n
         super().__init__(
             label="Accept Tic Tac Toe Invite",
@@ -67,9 +62,11 @@ class TTTInviteButton(Button[TTTInviteView]):
         )
 
     async def callback(self, inter: MessageInteraction):
+        # check if not the challenger
         if inter.author.id != self.players[1]:
             return
-        game = TTT(players=self.players, n=self.n)
+        players = tuple(reversed(self.players)) if random.choice([0, 1]) else self.players
+        game = TTT(players=players, n=self.n)
         await inter.send(f"{game.current_turn_mention}'s turn!", view=game)
 
 
